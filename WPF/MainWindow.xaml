@@ -32,7 +32,7 @@
       <BeginStoryboard Storyboard="{StaticResource EffectsStoryboard}"/>
     </EventTrigger>
   </Window.Triggers>
-  <Grid>
+  <Grid Background="Black">
     <Grid.RowDefinitions>
       <RowDefinition Height="9*"/>
       <RowDefinition Height="1*"/>

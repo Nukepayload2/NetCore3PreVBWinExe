@@ -3,4 +3,4 @@
 
 __Tested with .net core 3.0 preview1 and the following command:__
 
-dotnet publish --self-contained -r win10-x64-aot -c Release
+dotnet publish --self-contained -r win10-x64 -c Release

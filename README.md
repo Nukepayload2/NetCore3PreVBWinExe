@@ -1,9 +1,11 @@
-# NetCore3Pre1VBWinExe
+# .NET Core 3.0 WPF and Winforms Template for Visual Basic
 
-__We don't need this template anymore, because the official VB WPF/Winforms templates have been included in .NET Core 3.0 Preview 6__
+__Tested with .net core 3.0 rc1 and the following command:__
 
-.NET Core 3.0 Preview 1 WPF and Winform Template for Visual Basic
+`dotnet publish --self-contained -r win10-x64 -c Release`
 
-__Tested with .net core 3.0 preview1 and the following command:__
-
-dotnet publish --self-contained -r win10-x64 -c Release
+__This template does NOT provide the following features__
+- IVBHost support in `MsgBox`
+- InputBox
+- My namespace
+- Singleton Windows Forms application
